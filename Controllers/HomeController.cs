@@ -9,6 +9,7 @@ namespace WebApp.Controllers
     public class HomeController : Controller
     {
         ApplicationDbContext context = new ApplicationDbContext();
+        TaskEntities taskEntities = new TaskEntities(); 
         public ActionResult Index()
         {
            var result = context.AddBooks.ToList();
@@ -20,7 +21,9 @@ namespace WebApp.Controllers
 
             ViewBag.Message = "Your application description page.";
 
-            return View();
+            var result = taskEntities.Student_tbl.ToList();
+
+            return View(result);
         }
 
         public ActionResult Contact()

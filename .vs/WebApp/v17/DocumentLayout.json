@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE4265EA-7C67-4B16-AB40-3EAD45AEDC62}|WebApp.csproj|c:\\users\\admin\\documents\\visual studio 2022\\projects\\webapp\\views\\createbook\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE4265EA-7C67-4B16-AB40-3EAD45AEDC62}|WebApp.csproj|solutionrelative:views\\createbook\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE4265EA-7C67-4B16-AB40-3EAD45AEDC62}|WebApp.csproj|c:\\users\\admin\\documents\\visual studio 2022\\projects\\webapp\\controllers\\createbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE4265EA-7C67-4B16-AB40-3EAD45AEDC62}|WebApp.csproj|solutionrelative:controllers\\createbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE4265EA-7C67-4B16-AB40-3EAD45AEDC62}|WebApp.csproj|C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\models\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE4265EA-7C67-4B16-AB40-3EAD45AEDC62}|WebApp.csproj|solutionrelative:models\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE4265EA-7C67-4B16-AB40-3EAD45AEDC62}|WebApp.csproj|C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE4265EA-7C67-4B16-AB40-3EAD45AEDC62}|WebApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE4265EA-7C67-4B16-AB40-3EAD45AEDC62}|WebApp.csproj|c:\\users\\admin\\documents\\visual studio 2022\\projects\\webapp\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE4265EA-7C67-4B16-AB40-3EAD45AEDC62}|WebApp.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE4265EA-7C67-4B16-AB40-3EAD45AEDC62}|WebApp.csproj|c:\\users\\admin\\documents\\visual studio 2022\\projects\\webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE4265EA-7C67-4B16-AB40-3EAD45AEDC62}|WebApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE4265EA-7C67-4B16-AB40-3EAD45AEDC62}|WebApp.csproj|c:\\users\\admin\\documents\\visual studio 2022\\projects\\webapp\\models\\student_tbl.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE4265EA-7C67-4B16-AB40-3EAD45AEDC62}|WebApp.csproj|solutionrelative:models\\student_tbl.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE4265EA-7C67-4B16-AB40-3EAD45AEDC62}|WebApp.csproj|c:\\users\\admin\\documents\\visual studio 2022\\projects\\webapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BE4265EA-7C67-4B16-AB40-3EAD45AEDC62}|WebApp.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\Views\\CreateBook\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\CreateBook\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\Views\\CreateBook\\Create.cshtml",
-              "RelativeToolTip": "Views\\CreateBook\\Create.cshtml",
-              "ViewState": "AQIAABYAAAAAAAAAAAAowBMAAAABAAAA",
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-15T10:10:06.625Z",
+              "WhenOpened": "2024-04-15T11:40:11.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateBookController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\Controllers\\CreateBookController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CreateBookController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\Controllers\\CreateBookController.cs",
-              "RelativeToolTip": "Controllers\\CreateBookController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAmwCIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:50:18.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAoAAAA5AAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:50:16.467Z",
+              "WhenOpened": "2024-04-15T11:40:03.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAABiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:21:33.384Z",
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-15T11:39:19.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AddBook.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\Models\\AddBook.cs",
-              "RelativeDocumentMoniker": "Models\\AddBook.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\Models\\AddBook.cs",
-              "RelativeToolTip": "Models\\AddBook.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Student_Tbl.Context.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\Models\\Student_Tbl.Context.cs",
+              "RelativeDocumentMoniker": "Models\\Student_Tbl.Context.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\Visual Studio 2022\\Projects\\WebApp\\Models\\Student_Tbl.Context.cs",
+              "RelativeToolTip": "Models\\Student_Tbl.Context.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:18:19.518Z",
+              "WhenOpened": "2024-04-15T11:39:10.738Z",
               "EditorCaption": ""
             }
           ]

@@ -1,6 +1,7 @@
 ﻿@{
     ViewBag.Title = "About";
 }
+@model IEnumerable<WebApp.Models.Student_tbl>
 <main aria-labelledby="title">
     <h2 id="title">@ViewBag.Title.</h2>
     <h3>@ViewBag.Message</h3>
@@ -9,4 +10,25 @@
         <h3>Partial View Function</h3>
         @Html.Partial("_Counter")
     </div>
+
+    <h3>Student Details</h3>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Firstname</td>
+                    <td>@item.Lastname</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
 </main>

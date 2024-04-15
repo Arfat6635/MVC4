@@ -61,6 +61,8 @@
       <HintPath>packages\System.Data.SqlClient.4.8.6\lib\net461\System.Data.SqlClient.dll</HintPath>
     </Reference>
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -130,6 +132,24 @@
     <Compile Include="Models\AddBook.cs" />
     <Compile Include="Models\BookModel.cs" />
     <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Models\Student_Tbl.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Student_Tbl.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Student_tbl.cs">
+      <DependentUpon>Student_Tbl.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Student_Tbl.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Student_Tbl.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Student_Tbl1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Student_Tbl.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -171,12 +191,29 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="Models\Student_Tbl.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Student_Tbl.edmx</DependentUpon>
+      <LastGenOutput>Student_Tbl.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Student_Tbl.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Student_Tbl.edmx</DependentUpon>
+      <LastGenOutput>Student_Tbl1.cs</LastGenOutput>
+    </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <EntityDeploy Include="Models\Student_Tbl.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Student_Tbl.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\Student_Tbl.edmx.diagram">
+      <DependentUpon>Student_Tbl.edmx</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
@@ -236,6 +273,9 @@
     <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="Scripts\jquery-3.7.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.7.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
