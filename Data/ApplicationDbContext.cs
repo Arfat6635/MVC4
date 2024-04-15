@@ -9,8 +9,9 @@ namespace WebApp.Data
 {
     public class ApplicationDbContext: DbContext
     {
-        public ApplicationDbContext():base("Connstr")
+        public ApplicationDbContext():base("Connstr") //Pass the connectionstring name from config
         {
+            //Set the Initializer
             Database.SetInitializer<ApplicationDbContext>(new CreateDatabaseIfNotExists<ApplicationDbContext>());
         }
 
