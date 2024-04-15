@@ -1,0 +1,14 @@
+﻿
+    <script>
+        let c = 0;
+        function count() { 
+            let x = document.querySelector('p');
+            c += 1;
+            x.innerText = 'You have clicked total '+c+' times';
+        }
+    </script>
+    
+<div>
+    <p>You have clicked total 0 times</p>
+    <input type="button" value="click" class="btn btn-primary" onclick="count();" />
+</div>

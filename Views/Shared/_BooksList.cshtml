@@ -1,0 +1,20 @@
+﻿@model WebApp.Models.BookModel
+
+<div class="card" style="width: 18rem;">
+    <img src="@Model.imagePath" class="card-img-top" width="192" height="289" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Title</h5>
+        <p class="card-text">Author : @Model.Author</p>
+        <p class="card-text">Price : @Model.price</p>
+        @using (Html.BeginForm("Contact", "Home", FormMethod.Post))
+        {
+
+            @Html.HiddenFor(model => model.BookID)
+            <button type="submit" class="btn btn-primary">
+                <span class="fa fa-shopping-cart" aria-hidden="true"> Buy </span>
+            </button>
+            
+
+        }
+    </div>
+</div>

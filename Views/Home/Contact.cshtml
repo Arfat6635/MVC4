@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Book Store";
+}
+@model List<WebApp.Models.BookModel>
+
+    <main aria-labelledby="title">
+       
+        <h3>@ViewBag.Message</h3>
+
+    </main>
+    <section>
+        <div class="card-group">
+            @foreach (var item in Model)
+            {
+                if (Convert.ToInt32(item.BookID) >= 1 && Convert.ToInt32(item.BookID) <= 5)
+                {
+                    Html.RenderPartial("_BooksList", item);
+                }
+            }
+        </div>
+
+        <div class="card-group">
+            @foreach (var item in Model)
+            {
+                if (Convert.ToInt32(item.BookID) >= 6 && Convert.ToInt32(item.BookID) <= 10)
+                {
+                    Html.RenderPartial("_BooksList", item);
+                    
+                }
+            }
+        </div>
+        
+        
+    </section>
+    

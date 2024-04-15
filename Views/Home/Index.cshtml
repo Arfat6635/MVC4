@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@model WebApp.Models.LoginModel
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="signup-form">
+                    @{ 
+                        Html.BeginForm("Save","Home",FormMethod.Post,htmlAttributes: new {@class= "mt-5 border p-4 bg-light shadow" });
+                    }
+                        <section>
+                            <h4 class="mb-5 text-secondary">User Form 👤</h4>
+                        </section>
+                        <div class="row">
+                            <div class="mb-3 col-md-6">
+                                @Html.LabelFor(model=>model.FirstName)
+                                @Html.TextBoxFor(model => model.FirstName,htmlAttributes:new {@class="form-control", placeholder = "Enter First Name" })
+                               @Html.ValidationMessageFor(model=>model.FirstName,"",htmlAttributes: new {@class="text-danger"})
+                            </div>
+
+                            <div class="mb-3 col-md-6">
+                                @Html.LabelFor(model => model.LastName)
+                                @Html.TextBoxFor(model => model.LastName, htmlAttributes: new { @class = "form-control", placeholder = "Enter Last Name" })
+                                @Html.ValidationMessageFor(model => model.LastName, "", htmlAttributes: new { @class = "text-danger" })
+                            </div>
+
+                            <div class="mb-3 col-md-12 col-12 col-xl-12 col-xxl-12">
+                                @Html.LabelFor(model => model.Password)
+                                @Html.TextBoxFor(model => model.Password, htmlAttributes: new { @class = "form-control", placeholder = "Enter Password" })
+                               @Html.ValidationMessageFor(model=>model.Password ,"",htmlAttributes: new {@class="text-danger"})
+                   
+                            </div>
+                            <div class="mb-3 col-md-12">
+                                @Html.LabelFor(model => model.ConfirmPassword)
+                                @Html.TextBoxFor(model => model.ConfirmPassword, htmlAttributes: new { @class = "form-control", placeholder = "Confirm Password" })
+                               @Html.ValidationMessageFor(model=>model.ConfirmPassword ,"",htmlAttributes: new {@class="text-danger"})
+                               </div>
+                            <div class="col-md-12">
+                                <button class="btn btn-primary float-end">Signup Now</button>
+                            </div>
+                        </div>
+                    @{ 
+                        Html.EndForm();
+                    }
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+@section Scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}
