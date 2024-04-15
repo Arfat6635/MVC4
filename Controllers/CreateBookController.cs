@@ -29,9 +29,7 @@ namespace WebApp.Controllers
               int result =   context.SaveChanges();
 
                 string Message = result == 0 ? "Insertion Failed" : "Inserted Successfully!";
-                TempData["Message"]=Message;
-
-                
+                TempData["Message"]= string.Format("<div class=\"alert alert-primary\" role=\"alert\">{0}</div>",Message);                
             }
             return RedirectToAction("Create");
         }

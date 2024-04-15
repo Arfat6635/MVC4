@@ -2,14 +2,20 @@
 
 @{
     ViewBag.Title = "Create";
+    if (@TempData["Message"] != null)
+    {
+        var msg = TempData["Message"].ToString();
+    }
 }
 
 <h2>Create</h2>
-if(@TempData["Message"].ToString().Length>0){
-<div class="alert alert-primary" role="alert">
-    @TempData["Message"].ToString();
-</div>
-}
+
+    @if (@TempData["Message"] != null)
+    {
+        @Html.Raw(TempData["Message"]);
+    }
+
+
 @using (Html.BeginForm("Save", "CreateBook", FormMethod.Post))
 {
     @Html.AntiForgeryToken()
